@@ -1,13 +1,13 @@
 # html-css-javasript-musicsite
 It is a music site.Use html build content, css add style, javascript achieve interactivity.
 <br>
-![](https://github.com/jingwhale/html-css-javasript-musicsite/raw/master/README1.jpg)
+![](https://github.com/jingwhale/html-css-javasript-musicsite/raw/master/images/README1.jpg)
 
 ## DIV building layout
-![](https://github.com/jingwhale/html-css-javasript-musicsite/raw/master/README2.png)
+![](https://github.com/jingwhale/html-css-javasript-musicsite/raw/master/images/README2.png)
 
 ## Achieve flv player
-![](https://github.com/jingwhale/html-css-javasript-musicsite/raw/master/README3.PNG)
+![](https://github.com/jingwhale/html-css-javasript-musicsite/raw/master/images/README3.PNG)
 ```javascript
 document.cookie="Cache=filehude5624;domain=vchinese.com;path=/";
 function playmedia(strID,strType,strURL,intWidth,intHeight) {
@@ -55,7 +55,7 @@ function sendEvent(typ,prm) {
 ```
 
 ## Click to switch contents
-![](https://github.com/jingwhale/html-css-javasript-musicsite/raw/master/README4.PNG)
+![](https://github.com/jingwhale/html-css-javasript-musicsite/raw/master/images/README4.PNG)
 
 
 
