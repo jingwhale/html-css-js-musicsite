@@ -1,0 +1,395 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background: #fff;
+	width: 760px;
+	margin:0 auto;
+	font-size: 12px;
+}
+
+img{
+	border: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+#header {
+	width: 760px;
+	height: 200px;
+	/*background: lightyellow;*/
+}
+
+#header img{
+	float:left;
+}
+
+
+#nav {
+	width: 760px;
+	height: 40px;
+	/*background: lightgreen;*/
+	margin-bottom: 10px;
+}
+
+#nav img{
+	float:left;
+}
+
+
+#banner {
+	width: 760px;
+	height: 60px;
+	background: lightblue;
+	margin-bottom: 10px;
+}
+
+#video {
+	width: 500px;
+	height: 336px;
+	background: url(../images/flv_bottom.jpg) no-repeat left bottom;
+	float: right;
+	margin-bottom: 10px;
+}
+
+#video h1{
+	width: 500px;
+	height: 31px;
+	line-height: 31px;
+	background: url(../images/flv_top.jpg) no-repeat left center;
+	color:#fff;
+	text-align: center;
+	font-size: 12px;
+}
+
+#video div{
+	width: 460px;
+	height:289px;
+	background:url(../images/flv_bg.jpg);
+	padding-left: 40px;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+#video div span{
+	display: block;
+	width: 320px;
+	height:260;
+	float: left;
+}
+
+
+#video div ul{
+	padding-left: 15px;
+	display: block;
+	width: 75px;
+	height: 260px;
+	float:left;
+}
+
+#video div ul li img{
+	width: 75px;
+	height: 55px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+
+#video div strong{
+	display: block;
+	clear: both;
+	height: 20px;
+	line-height: 20px;
+	text-indent: 20px;
+	font-weight: normal;
+	color: #999;
+}
+
+
+
+
+#act {
+	width: 250px;
+	height: 226px;
+	background:url(../images/jmd_bottom.jpg) no-repeat left bottom;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#act h1{
+	width: 250px;
+	height: 32px;
+	background: url(../images/jmd_top.jpg) no-repeat left center;
+	color:#fff;
+	text-align: center;
+	line-height: 32px;
+	font-size: 12px;
+}
+
+#act div{
+	width: 250px;
+	height: 188px;
+	background:url(../images/jmd_bg.jpg);
+}
+
+#act div ul{
+	width: 250px;
+	height: 188px;
+	margin: 0 auto;
+	overflow:auto;
+	color: #fff;
+	line-height: 120%;
+	text-indent: 45px;
+	scrollbar-face-color: #333; 
+	scrollbar-highlight-color: #666; 
+	scrollbar-shadow-color: #333; 
+	scrollbar-3dlight-color: #999; 
+	scrollbar-arrow-color: #999; 
+	scrollbar-track-color: #000; 
+}
+
+#act span{
+	color: #98FB98;
+}
+
+#ad {
+	width: 250px;
+	height: 100px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#top {
+	width: 250px;
+	height: 340px;
+	background:url(../images/jmd_bottom.jpg) no-repeat left bottom;
+	float: left;
+}
+
+#top h1{
+	width: 250px;
+	height: 32px;
+	background: url(../images/jmd_top.jpg) no-repeat left center;
+	color:#fff;
+	text-align: center;
+	line-height: 32px;
+	font-size: 12px;
+}
+
+#top div#ta{
+	width: 250px;
+	height: 302px;
+	background:url(../images/jmd_bg.jpg);
+}
+
+#top div#ta ul#sidebar{
+	height: 20px;
+	line-height: 20px;
+	width: 215px;
+	margin: 0 auto;
+	border-bottom: 1px solid #5b5b5b;
+	padding-top: 5px;
+}
+
+#top div#ta ul#sidebar li{
+	cursor: pointer;
+}
+
+#top div#ta ul#sidebar li.TabbedPanelsTab{
+	float: left;
+	width: 60px;
+	height: 20px;
+	background: url(../images/libg1.gif) no-repeat left center;
+	margin-left: 5px;
+	text-align: center;
+	color: #666;
+}
+
+#top div#ta ul#sidebar li.TabbedPanelsTabSelected{
+	background: url(../images/libg.gif) no-repeat;
+	color: #eee;
+}
+
+#top div#ta #content div ul.music{
+	color: #fff;
+	line-height: 210%;
+	margin-top: 10px;
+	margin-left: 25px;
+	background: url(../images/music.gif) repeat-y 93%;
+}
+
+#top div#ta #content div ul.music li{
+	padding-left: 25px;
+}
+
+#top div#ta #content div ul.music li.one{
+	background: url(../images/1.gif) no-repeat left 38%;
+}
+
+#top div#ta #content div ul.music li.two{
+	background: url(../images/2.gif) no-repeat left 38%;
+}
+
+#top div#ta #content div ul.music li.three{
+	background: url(../images/3.gif) no-repeat left 38%;
+}
+
+#top div#ta #content div ul.music li.four{
+	background: url(../images/4.gif) no-repeat left 38%;
+}
+
+#top div#ta #content div ul.music li.five{
+	background: url(../images/5.gif) no-repeat left 38%;
+}
+
+#top div#ta #content div ul.music li.six{
+	background: url(../images/6.gif) no-repeat left 38%;
+}
+
+#top div#ta #content div ul.music li.seven{
+	background: url(../images/7.gif) no-repeat left 38%;
+}
+
+#top div#ta #content div ul.music li.eight{
+	background: url(../images/8.gif) no-repeat left 38%;
+}
+
+#top div#ta #content div ul.music li.nine{
+	background: url(../images/9.gif) no-repeat left 38%;
+}
+
+#top div#ta #content div ul.music li.ten{
+	background: url(../images/10.gif) no-repeat left 38%;
+}
+
+
+
+#commend {
+	width: 500px;
+	height: 119px;
+	background: url(../images/flv_bottom.jpg) no-repeat left bottom;
+	float: right;
+	margin-bottom: 10px
+}
+
+#commend h1{
+	width: 500px;
+	height: 31px;
+	line-height: 31px;
+	background: url(../images/flv_top.jpg) no-repeat left center;
+	color:#fff;
+	text-align: center;
+	font-size: 12px;
+}
+
+#commend div{
+	width: auto;
+	height:82px;
+	background:url(../images/flv_bg.jpg);
+	padding-left: 20px;
+}
+
+#commend div img{
+	display: block;
+	float: left;
+	padding-top: 12px;
+	padding-left: 10px;
+}
+
+
+#compere {
+	width: 500px;
+	height: 140px;
+	background: url(../images/flv_bottom.jpg) no-repeat left bottom;
+	float: right;
+	margin-bottom: 10px
+}
+
+#compere h1{
+	width: 500px;
+	height: 31px;
+	line-height: 31px;
+	background: url(../images/flv_top.jpg) no-repeat left center;
+	color:#fff;
+	text-align: center;
+	font-size: 12px;
+}
+
+#compere div{
+	width: auto;
+	height:103px;
+	background:url(../images/flv_bg.jpg);
+	padding-left: 40px;
+}
+
+#compere div dl{
+	width: 210px;
+	height: 90px;
+	float: left;
+	padding-top: 10px;
+}
+
+#compere div dl dt{
+	width: 82px;
+	height: 82px;
+	float: left;
+}
+
+#compere div dl dt img{
+	width: 82px;
+	height: 82px;
+	display: block;
+}
+
+#compere div dl dd{
+	color: #fff;
+	text-indent: 8px;
+}
+
+
+#partner {
+	width: 500px;
+	height: 60px;
+	background: #BA55D3;
+	float: right;
+	margin-bottom: 10px
+}
+
+#partner img{
+	display: block;
+}
+
+#footer {
+	clear: both;
+	width: 760px;
+	height: 120px;
+	background:url(../images/footer.gif) no-repeat left center;
+}
+
+#footer ul{
+	text-align: center;
+	color: #999;
+	height: 30px;
+	line-height: 30px;
+}
+
+#footer ul li{
+	display: inline;
+}
+
+#footer ul li a{
+	text-decoration: none;
+}
+
+#footer ul li a:hover{
+	text-decoration: underline;
+}
+
+#footer p{
+	text-align: center;
+	color: #666;
+}
